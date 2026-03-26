@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     color: #F5F5F5;
+    text-decoration: none;
 }
 
 body{
@@ -41,7 +42,7 @@ main{
 }
 #titulo{
     color: #FFD700;
-    margin: 1% 80px 1% 50px;
+    margin: 20px 80px 10px 50px;
     font-family:"Orbitron";
     font-weight: 700;
     font-size: 42px;
@@ -51,7 +52,7 @@ main{
     width: auto;
     border-radius: 12px;
 }
-p{
+#gam{
     font-family: "Quicksand";
     font-size: 26px;
     font-weight: 700;
@@ -106,4 +107,21 @@ section{
 .productDesc{
     font-size: 12px;
     max-width: 200px;
+}
+h2{
+    text-align: center;
+    font-family: "Orbitron";
+    color: #F5F5F5;
+}
+#aboutContainer{
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 40px 80px;
+
+
+}
+.aboutTxt{
+    font-family: "Quicksand";
+    width: fit-content;
 }
