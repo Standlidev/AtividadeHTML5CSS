@@ -39,6 +39,9 @@ main{
 }
 #kim{
     margin: 30px 30px 55px 0px;
+    font-family: "Quicksand";
+    font-size: 26px;
+    font-weight: 700;
 }
 #titulo{
     color: #FFD700;
